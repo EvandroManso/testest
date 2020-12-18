@@ -1,0 +1,9 @@
+#
+####### example-requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+nose
+nose-cov
+beautifulsoup4
+bokeh @ file:///C:/ci/bokeh_1593178781838/work
+#
