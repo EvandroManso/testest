@@ -34,7 +34,7 @@ chart_data = pd.DataFrame(
 
 st.line_chart(chart_data)
 
-## mapa de dados (n sei se pode ser util)
+## mapa de 3 (n sei se pode ser util)
 map_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
     columns=['lat', 'lon'])
@@ -94,7 +94,8 @@ import sys
 sys.path.append(path_bokeh)
 from graph import graph
 
-df = pd.read_excel ("R:/EVANDRO/Python/Pietro/" + "dados3.xlsx", sheet_name="Sheet1", header=0)
+#df = pd.read_excel ("R:/EVANDRO/Python/Pietro/" + "dados3.xlsx", sheet_name="Sheet1", header=0)
+df = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0)
 df = df.set_index("datas")
 a = graph(df,par=True, style=["bb", "bb"])
 a.plot()
