@@ -27,6 +27,8 @@ df = pd.DataFrame({
 #muito facil exibir dataframes:
 df
 
+df_novo = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0)
+df_novo
 ## plotar grafico (sem bokeh)
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
