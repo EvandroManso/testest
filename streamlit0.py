@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import time
+import xlrd
 # necessario rodar o comando a baixo no terminal:
 # streamlit run R:\EVANDRO\Python\Pietro\Streamlit\streamlit0.py
 
@@ -27,7 +28,7 @@ df = pd.DataFrame({
 #muito facil exibir dataframes:
 df
 
-df_novo = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0, engine='openpyxl')
+df_novo = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0)#, engine='openpyxl')
 df_novo
 ## plotar grafico (sem bokeh)
 chart_data = pd.DataFrame(
