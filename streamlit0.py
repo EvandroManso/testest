@@ -28,7 +28,7 @@ df = pd.DataFrame({
 #muito facil exibir dataframes:
 df
 
-df_novo = pd.read_csv("dados3.csv", header=0)#, engine='openpyxl')
+df_novo = pd.read_csv("dados3.csv", header=0, sep=";")#, engine='openpyxl')
 df_novo
 ## plotar grafico (sem bokeh)
 chart_data = pd.DataFrame(
