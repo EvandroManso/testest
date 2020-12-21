@@ -231,7 +231,7 @@ class graph:
 #     a.plot()
 #     a.show()
 # df = pd.read_excel ("R:/EVANDRO/Python/Pietro/" + "dados3.xlsx", sheet_name="Sheet1", header=0)
-df = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0, engine='openpyxl')
+df = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0)
 # df.iloc[:,0] = df.iloc[:,0].astype(str)
 df=df.set_index("datas")
 
