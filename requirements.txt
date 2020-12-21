@@ -1,0 +1,15 @@
+#
+####### example-requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+nose
+nose-cov
+beautifulsoup4
+bokeh
+openpyxl
+xlrd
+XlsxWriter
+xlwings
+xlwt
+xmltodict
+#
