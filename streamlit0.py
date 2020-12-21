@@ -98,8 +98,15 @@ sys.path.append(path_bokeh)
 from graph import graph
 
 #df = pd.read_excel ("R:/EVANDRO/Python/Pietro/" + "dados3.xlsx", sheet_name="Sheet1", header=0)
-df = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0)
-df = df.set_index("datas")
+##df = pd.read_excel ("dados3.xlsx", sheet_name="Sheet1", header=0)
+##df = df.set_index("datas")
+
+
+df = pd.read_csv("dados3.csv", header=0, sep=";")
+# df.iloc[:,0] = df.iloc[:,0].astype(str)
+df['datas'] = df['datas'].astype('datetime64[ns]')
+df=df.set_index("datas")
+
 a = graph(df,par=True, style=["bb", "bb"])
 a.plot()
 
