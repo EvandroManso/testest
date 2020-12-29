@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import time
-import xlrd
+# import xlrd
 # necessario rodar o comando a baixo no terminal:
 # streamlit run R:\EVANDRO\Python\Pietro\Streamlit\streamlit0.py
 
