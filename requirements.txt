@@ -14,4 +14,4 @@ xlwings
 xlwt
 xmltodict
 #
-streamlit==0.62.1
+streamlit==0.71.0
