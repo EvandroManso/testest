@@ -2,16 +2,16 @@
 ####### example-requirements.txt #######
 #
 ###### Requirements without Version Specifiers ######
-nose
-nose-cov
-beautifulsoup4
-bokeh == 2.2.1
+#nose
+#nose-cov
+#beautifulsoup4
+bokeh
 openpyxl
 pandas
-xlrd
-XlsxWriter
-xlwings
-xlwt
-xmltodict
+#xlrd
+#XlsxWriter
+#xlwings
+#xlwt
+#xmltodict
 #
 streamlit==0.71.0
