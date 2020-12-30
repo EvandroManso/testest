@@ -6,6 +6,10 @@ import time
 # necessario rodar o comando a baixo no terminal:
 # streamlit run R:\EVANDRO\Python\Pietro\Streamlit\streamlit0.py
 
+#plotando uma img
+from PIL import Image
+st.image(Image.open('logo.png'))
+
 st.title('Aqui fica o título')
 st.write('e aqui o subtítulo')
 """
@@ -149,6 +153,3 @@ st.bokeh_chart(p, use_container_width=True)
 
 
 
-#plotando uma img
-from PIL import Image
-st.image(Image.open('C:\\Users\\evandro.manso.TAVOLA\\Pictures\\logo.png'))
