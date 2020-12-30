@@ -5,7 +5,7 @@
 nose
 nose-cov
 beautifulsoup4
-bokeh == 2.2.2
+bokeh == 2.2.1
 openpyxl
 pandas
 xlrd
